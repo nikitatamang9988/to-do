@@ -1,0 +1,24 @@
+.normal-button {
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(46, 221, 137);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.normal-button:hover {
+ background-color:rgb(40, 178, 111) ;
+}
+
+.circle-button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: pink;
+  color: black;
+  font-size: 20px;
+  font-weight: 200px;
+}

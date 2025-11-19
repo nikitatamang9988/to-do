@@ -1,0 +1,39 @@
+.card-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.card-content{
+  height: auto;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px 2px rgb(235, 237, 113);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  background-color: rgb(28, 145, 234);
+  color: white;
+}
+
+.card{
+ overflow-wrap: anywhere;
+
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: black;
+    flex-shrink: 0;      
+    display: inline-block;
+}
+
