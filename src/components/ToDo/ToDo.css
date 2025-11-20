@@ -14,6 +14,7 @@
 }
 
 .organise {
+  text-align: center;
   font-size: 56px;
   color: rgb(255, 255, 255);
   font-weight: 700;
@@ -116,7 +117,7 @@ img {
 
 @media (max-width: 800px) {
   .center {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color: rgb(80, 78, 108);
@@ -176,22 +177,23 @@ img {
   .content {
     /* display: flex;
   flex-direction: row; */
-    height: 80%;
+    height: 50%;
     overflow-y: auto;
     margin-top: 20px;
     padding-bottom: 30px;
   }
 
   input {
-    height: 30px;
+    height: 35px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
-    padding: 0 10px 0 20px;
-    font-size: 16px;
+    padding: 0 10px 0 12px;
+    font-size: 14px;
   }
 
   input:focus {
+    background-color: rgb(239, 239, 139);
     outline: none;
     border: none;
     box-shadow: none;
