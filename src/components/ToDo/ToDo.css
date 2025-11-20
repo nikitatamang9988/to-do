@@ -177,8 +177,8 @@ img {
   .content {
     /* display: flex;
   flex-direction: row; */
-    /* height: 50%; */
-    overflow-y: none;
+    height: auto;
+    overflow-y: visible;
     margin-top: 20px;
     padding-bottom: 30px;
   }
